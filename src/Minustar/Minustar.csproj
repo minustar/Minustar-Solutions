@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\CommonProperties.csprops" />
+
+    <PropertyGroup>
+        <Title>Minustar Common Class Library</Title>
+        <RootNamespace>Minustar</RootNamespace>
+    </PropertyGroup>
+
+</Project>

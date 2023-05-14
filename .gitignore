@@ -1,0 +1,15 @@
+.vs/
+.vscode/
+.idea/
+*.suo
+
+*.log
+*.tmp
+
+[Pp]ub/
+[Pp]ublish/
+[Oo]bj/
+[Bb]in/
+[Rr]elease/
+[Dd]ebug/
+

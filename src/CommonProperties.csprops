@@ -1,0 +1,30 @@
+<Project>
+
+    <!-- Common properties for all projects -->
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>        
+    </PropertyGroup>
+
+    <!-- Documnetation configuration -->
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <WarningsAsErrors>
+            CS1591; <!-- Missing XML comment for publicly visible type or member -->
+            CS1572; <!-- XML comment has a param tag for '...' but there is no parameter by that name -->
+            CS1573; <!-- Parameter has no matching param tag in the XML comment -->
+        </WarningsAsErrors>
+    </PropertyGroup>
+
+    <!-- Assembly Information -->
+    <PropertyGroup>
+        <Product>Minustar Solutions</Product>
+        <Company>Minustar</Company>
+        <Copyright>Copyright © 2023 Minustar</Copyright>
+        <Authors>Minustar</Authors>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+</Project>
